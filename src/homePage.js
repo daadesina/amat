@@ -1,32 +1,30 @@
-import advans from './advans.png';
+// import advans from './advans.png';
 import amat from './amat.png';
 const HomePage = () => {
     return ( 
         <body className="homeContainer font-serif">
-            <section className="homeHeader">
-                {/* <div className='homeHeader1'> */}
-                    <ul className='homeLogo'>
-                        <li>
-                            <img src={advans} alt='Advans' className='homeLogoImage'/>
-                        </li>
-                        <li>
-                            <div style={{fontWeight: "bolder"}}>Advans Medical And Trendy<br/>Health Consultancy </div>
-                        </li>
-                    </ul>
-                    <ul className='homeNav'>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Services</li>
-                        <li>Contact Us</li>
-                    </ul>
-                {/* </div> */}
+            {/* <section className="homeHeader">                
+                <ul className='homeLogo'>
+                    <li>
+                        <img src={advans} alt='Advans' className='homeLogoImage'/>
+                    </li>
+                    <li>
+                        <div style={{fontWeight: "bolder"}}>Advans Medical And Trendy<br/>Health Consultancy </div>
+                    </li>
+                </ul>
+                <ul className='homeNav'>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                </ul>
                 <ul className='homeLogin'>
                     <li className='text-blue-700'>Log In</li>
                     <li className='border-1 border-solid border-blue-700 rounded'>Sign Up</li>
                 </ul>
                 
                 
-            </section>
+            </section> */}
             <section className="homeContact">
                 <div className='contact font-bold'>
                     <div style={{fontSize: "5vw"}}>Get our service</div>
@@ -114,10 +112,10 @@ const HomePage = () => {
                     <p>Services</p>
                 </div>
             </section>
-            <section className="homeTerms bg-secondary">
+            {/* <section className="homeTerms bg-secondary">
                 <p>Terms and Conditions</p>
                 <p><i class="fa-regular fa-copyright"></i> All Right reserved, 2024</p>
-            </section>
+            </section> */}
         </body>
      );
 }

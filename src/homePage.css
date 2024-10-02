@@ -23,6 +23,7 @@
     align-content: space-between;
     width: 90%;
     text-align: left;
+    
 }
 .homeLogoImage {
     width: 6rem;
@@ -153,5 +154,8 @@
     }
     .footerPhone {
         padding: 0.7vw;
+    }
+    .homeTerms p {
+        font-size: 2vw;
     }
 }
