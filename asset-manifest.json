@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/amat/static/css/main.f855e6bc.css",
+    "main.js": "/amat/static/js/main.06e282a5.js",
+    "static/js/453.611c7bda.chunk.js": "/amat/static/js/453.611c7bda.chunk.js",
+    "static/media/logo.svg": "/amat/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/amat/index.html",
+    "main.f855e6bc.css.map": "/amat/static/css/main.f855e6bc.css.map",
+    "main.06e282a5.js.map": "/amat/static/js/main.06e282a5.js.map",
+    "453.611c7bda.chunk.js.map": "/amat/static/js/453.611c7bda.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.06e282a5.js"
+  ]
+}
