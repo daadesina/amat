@@ -4,20 +4,22 @@ const HomePage = () => {
     return ( 
         <body className="homeContainer font-serif">
             <section className="homeHeader">
-                <ul className='homeLogo' style={{width: "23vw"}}>
-                    <li>
-                        <img src={advans} alt='Advans' className='homeLogoImage'/>
-                    </li>
-                    <li>
-                        <div style={{fontSize:'1vw', fontWeight: "bolder"}}>Advans Medical And Trendy Health Consultancy </div>
-                    </li>
-                </ul>
-                <ul className='homeNav'>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Services</li>
-                    <li>Contact Us</li>
-                </ul>
+                {/* <div className='homeHeader1'> */}
+                    <ul className='homeLogo'>
+                        <li>
+                            <img src={advans} alt='Advans' className='homeLogoImage'/>
+                        </li>
+                        <li>
+                            <div style={{fontWeight: "bolder"}}>Advans Medical And Trendy<br/>Health Consultancy </div>
+                        </li>
+                    </ul>
+                    <ul className='homeNav'>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Contact Us</li>
+                    </ul>
+                {/* </div> */}
                 <ul className='homeLogin'>
                     <li className='text-blue-700'>Log In</li>
                     <li className='border-1 border-solid border-blue-700 rounded'>Sign Up</li>
@@ -58,7 +60,7 @@ const HomePage = () => {
                 </div>
             </section>
             <section className="homePrice font-sans font-bold">
-                <p style={{fontSize: '2.5vw'}}>Our Pricing</p>
+                <p style={{fontSize: '4vw'}}>Our Pricing</p>
                 <p>Our simple straightforward pricing that suits you!</p>
                 <div className='price text-white'>   
                     <div>
@@ -88,8 +90,8 @@ const HomePage = () => {
             <section className="homeFooter">
                 <div>
                     <div className='footerLogo'>
-                        <img src={amat} alt='amat' className='homeLogoImage' style={{width: '10vw'}}></img>
-                        <span style={{width: "23vw", fontWeight: "bolder"}}>Advans Medical And Trendy Health Consultancy Limited</span>
+                        <img src={amat} alt='amat' className='homeLogoImage'></img>
+                        <span style={{fontWeight: "bolder", width: '50%'}}>Advans Medical And Trendy Health Consultancy Limited</span>
                     </div>
                     <p>At AMaT-HCL<i class="fa-regular fa-registered fa-2xs" style={{color: "#000000"}}></i> we provide 24/7 Medical and <br/> Health advisory and resources and expertise<br/> advisory.</p>
                 </div>

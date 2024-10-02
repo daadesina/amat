@@ -9,10 +9,18 @@
     align-items: center;
     font-size: 1.5vw;
 }
+
+/* .homeHeader{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+} */
 .homeHeader {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-content: space-between;
     width: 90%;
     text-align: left;
 }
@@ -79,10 +87,13 @@
 .price {
     display: flex;
     justify-content: space-between;
-    width: 80vw;
     background-color: rgb(27, 27, 129);
     text-align: start;
     padding: 5px 30px 5px 30px;
+}
+
+.homePrice {
+    width: 90%;
 }
 
 .footerLogo {
@@ -93,7 +104,7 @@
 .footerPhone {
     border: 1px solid black;
     border-radius: 50%;
-    padding: 0.7vw;
+    padding: 0.4rem;
 }
 
 .homeFooter {
@@ -104,18 +115,43 @@
     text-align: left;
 }
 
+
 .homeTerms {
     display: flex;
     width: 90%;
     justify-content: space-between;
 }
 .homeTerms p {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
-/* @media all and (max-width: 600px) {
-    .homeHeader {
+@media all and (max-width: 800px) {
+    .homeContainer{
+        font-size: 3vw;
+    }
+    .homeHeader{
+        flex-direction: column;
+    }
+    .homeCards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .myCardContainer {
+        width: 70%;
+    }
+    .homeLogoImage {
+        width: 4rem;
+    }
+    .price {
+        font-size: 1.5vw;
+        padding: 5px 10px 5px 10px;
         
     }
-} */
+    .homeFooter {
+        font-size: 1.7vw;
+    }
+    .footerPhone {
+        padding: 0.7vw;
+    }
+}
