@@ -1,0 +1,121 @@
+* {
+    margin: 3px;
+}
+
+
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5vw;
+}
+.homeHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    text-align: left;
+}
+.homeLogoImage {
+    width: 6rem;
+    border: 2px solid;
+    border-color: transparent;
+    border-radius: 20px;
+}
+.homeLogo {
+    display: flex;
+    align-items: center;
+}
+.homeNav {
+    display: flex;
+    
+}
+.homeNav li {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.homeLogin {
+    display: flex;
+    
+}
+.homeLogin li {
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.homeContact {
+    border: 1px solid rgb(248, 214, 225);
+    width: 70%;
+    border-radius: 20px;
+    height: 35vw;
+    color: rgb(1, 1, 70);
+    align-content: center;
+}
+.contactButton {
+    background-color: rgb(1, 1, 70);
+    color: white;
+    padding: 6px;
+    border-radius: 10%;
+}
+
+.homeDots {
+    font-size:xx-large;
+}
+
+.homeCards {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.myCardContainer {
+    width: 30%;
+    border: 1px solid rgb(109, 108, 108);
+    border-radius: 20px;
+}
+.myCard {
+    padding: 5px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    background-color: rgb(27, 27, 129);
+    text-align: start;
+    padding: 5px 30px 5px 30px;
+}
+
+.footerLogo {
+    display: flex;
+    align-items: center;
+}
+
+.footerPhone {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 0.7vw;
+}
+
+.homeFooter {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.homeTerms {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.homeTerms p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* @media all and (max-width: 600px) {
+    .homeHeader {
+        
+    }
+} */
